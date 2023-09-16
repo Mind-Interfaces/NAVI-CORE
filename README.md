@@ -1,31 +1,26 @@
-# Chatbot UI
+# NAVI-CORE
 
 ## News
 
-Chatbot UI 2.0 is out as an updated, hosted product!
-
-Check out [Takeoff Chat](https://www.takeoffchat.com/).
-
-Open source version coming soon!
+NAVI-CORE is out as an updated Digital Human!
 
 ## About
 
-Chatbot UI is an open source chat UI for AI models.
-
-See a [demo](https://twitter.com/mckaywrigley/status/1640380021423603713?s=46&t=AowqkodyK6B4JccSOxSPew).
+NAVI-CORE is powered by an open-source chatbot UI for AI models.
 
 ![Chatbot UI](./public/screenshots/screenshot-0402023.jpg)
 
 ## Updates
 
-Chatbot UI will be updated over time.
+NAVI-CORE will be updated over time.
 
 Expect frequent improvements.
 
 **Next up:**
 
-- [ ] Sharing
-- [ ] "Bots"
+- [ ] TTS
+- [ ] "Video Avatars"
+- [ ] "Discord Support"
 
 ## Deploy
 
