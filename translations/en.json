@@ -1,0 +1,131 @@
+{
+  "BottomBar": {
+    "BottomBar": {
+      "type": "Type",
+      "talk": "Talk",
+      "showChat": "Show chat"
+    },
+    "Chat": {
+      "placeholder": "Type a message"
+    },
+    "PushToTalk": {
+      "sending": "Let me think",
+      "recording": "Go ahead, I'm listening",
+      "waiting": "Hold spacebar to talk"
+    }
+  },
+  "endSession": {
+    "EndSessionButton": {
+      "leaveChat": "Leave Chat"
+    },
+    "EndSessionConfirm": {
+      "heading": "Are you sure you want to leave?"
+    },
+    "EscalationForm": {
+      "headingRefer": "Refer to my human colleague",
+      "headingThanksFeedback": "Thanks for your feedback",
+      "headingBeforeYouLeave": "Before you leave",
+      "subtitle": "Would you like to go in the draw to win a staff prize?",
+      "yes": "Yes",
+      "no": "No",
+      "emailPromptFromServer": "Please enter your email address so my human colleague can get in touch to help you:",
+      "emailPromptNotFromServer": "Please enter your email below to be in to win:",
+      "email": "Email Address",
+      "invalidEmail": "Invalid email address, try again"
+    },
+    "Feedback": {
+      "heading": "How was your chat?",
+      "howLikelySubtitle": "How likely are you to recommend {{avatarName}} to a friend or colleague?",
+      "howEasySubtitle": "How easy was it to get the answers you are looking for?",
+      "notVeryLikely": "Not very likely",
+      "extremelyLikely": "Extremely likely",
+      "whatsYourImpression": "How likely are you to recommend {{avatarName}} to a friend or colleague?"
+    },
+    "EndSessionActions": {
+      "backToChat": "Back to chat",
+      "leaveChat": "Leave chat"
+    }
+  },
+  "InputProblem": {
+    "spacebarNotSmallScreen": "Press & hold down the spacebar the entire time while you talk to me. Then release the spacebar when you've finished speaking.",
+    "spacebarSmallScreen": "Push & hold the yellow button the entire time while you talk to me. Then release the button when you've finished speaking.",
+    "noInput": "I can't hear you. Please check your mic is unmuted"
+  },
+  "Menu": {
+    "settings": "Settings",
+    "showChat": "Show Chat",
+    "giveFeedback": "Give Feedback",
+    "privacy": "Privacy"
+  },
+  "OnScreenInfo": {
+    "Information": {
+      "expand": "Expand",
+      "saved": "Saved",
+      "save": "Save",
+      "remove": "Remove",
+      "downloadAll": "Download all",
+      "minimise": "Minimise"
+    }
+  },
+  "PasscodeOverlay": {
+    "heading": "Enter your 7-digit passcode",
+    "nextButton": "Next"
+  },
+  "PermissionsRejected": {
+    "heading": "Looks like you've declined permissions",
+    "explanation": "We use audio data so that a digital human can understand what you are\n          saying to it. For more information, you can read our",
+    "linkText": "privacy policy",
+    "noticeNotSafari": "No problem! You can update your browser permissions by clicking\n              the padlock icon in the navigation bar and change mic permissions\n              to allow access.",
+    "noticeSafari": "No problem! You can update your browser permissions and change mic\n              permissions to allow access.",
+    "noticeText": "After you’ve done that hit the reload button below.",
+    "backToHome": "Back to homepage",
+    "reloadPermissions": "Reload Permissions"
+  },
+  "PrivacySummary": {
+    "heading": "Data and Privacy",
+    "text": "We take your privacy seriously, we only use video and audio data so that a\n          digital human can understand what you are saying to it. We then share\n          audio data with third party service partners who help us with\n          transcription. Neither they or we store any audio data once we have\n          completed the transcription. For more information read our",
+    "linkText": "privacy policy"
+  },
+  "Settings": {
+    "AudioTest": {
+      "playing": "Playing",
+      "test": "Test"
+    },
+    "DeviceList": {
+      "default": "Default"
+    },
+    "Settings": {
+      "heading": "Settings",
+      "closeButton": "Done"
+    }
+  },
+  "Startup": {
+    "AvatarUnavailable": {
+      "heading": "{{avatarName}} is busy",
+      "message": "Sorry, {{avatarName}} is on another call right now. Please wait a moment."
+    }
+  },
+  "Timeout": {
+    "heading": "Are you still there?",
+    "subtitle": "Your session will expire due to inactivity",
+    "leaveChat": "Leave chat",
+    "backToChat": "Back to chat"
+  },
+  "Transcript": {
+    "noTranscriptAvailable": "No transcript available yet"
+  },
+  "TranscriptFooter": {
+    "inputPlaceholder": "Type your question here"
+  },
+  "TranscriptHeader": {
+    "download": "Download",
+    "minimise": "Minimise Transcript"
+  },
+  "UnsupportedBrowser": {
+    "heading": "Sorry, your software isn't supported",
+    "paragraph1": "We support Chrome on both Windows 10 and MacOS (High Sierra or later) and Safari on MacOS",
+    "paragraph2": "You could try switching to one of these browsers.",
+    "backToHome": "Back to Homepage",
+    "getChrome": "Get Chrome"
+  }
+}
