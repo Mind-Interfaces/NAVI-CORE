@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import UneeqContext from '../provider/UneeqContext'
+import UneeqContext from '../provider/UneeqContext.ts'
 import { Box } from 'rebass'
 import { useUneeqState, useIsSmallScreen } from '../hooks'
 import { isMobileSafari } from 'react-device-detect'
