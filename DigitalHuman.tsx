@@ -6,7 +6,7 @@ import {
   UneeqContext,
   useUneeqState,
   Uneeq
-} from 'uneeq-react-core'
+} 
 import { Box } from 'rebass'
 import Menu from './Components/Menu'
 import BottomBar from './Components/BottomBar'
