@@ -6,7 +6,7 @@ import { useVolume } from 'uneeq-react-core'
 import { useTheme } from 'emotion-theming'
 
 import { keyframes } from '@emotion/core'
-import { useIsSmallScreen } from 'uneeq-react-core'
+import { useIsSmallScreen } from '../../'
 import { useTranslation } from 'react-i18next'
 
 const fourTwo = (a: any, b: any) => [a, a, a, a, b, b]
