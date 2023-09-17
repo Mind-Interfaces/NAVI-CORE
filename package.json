@@ -26,7 +26,6 @@
     "react-markdown": "^8.0.5",
     "react-query": "^3.39.3",
     "react-syntax-highlighter": "^15.5.0",
-    "react-device-detect": "latest",
     "rebass": "^4.0.3",
     "rehype-mathjax": "^4.0.2",
     "remark-gfm": "^3.0.1",
