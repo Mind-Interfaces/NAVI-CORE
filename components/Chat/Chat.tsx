@@ -244,15 +244,14 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
           homeDispatch({ field: 'messageIsStreaming', value: false });
         }
       }
-    },
-    [
+    }, [
       apiKey,
       conversations,
       pluginKeys,
       selectedConversation,
       stopConversationRef,
-    ],
-  );
+      homeDispatch 
+    ]);
 
   const scrollToBottom = useCallback(() => {
     if (autoScrollEnabled) {
