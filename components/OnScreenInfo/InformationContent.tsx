@@ -175,20 +175,29 @@ const renderInformationItem = (item: InformationItem, index: number, sendText, d
   }
 }
 
+import { useContext, useRef } from 'react';  // Import the required hooks
+import debounce from 'lodash.debounce';  // Import debounce if it's not already imported
+
 interface InformationProps {
-  information: InformationItem[]
+  information: InformationItem[];
 }
 
 const InformationContent: React.FC<InformationProps> = ({ information }) => {
-  if (!information?.length) return null
+  if (!information?.length) return null;
+
+  // Add these lines
+  const { sendText, dispatch } = useContext(UneeqContext);
+  const debouncedSend = useRef(
+    debounce((text: string) => sendText(text), 2000)
+  ).current;
 
   return (
     <>
       {information.map((item: InformationItem, index: number) => {
-        return renderInformationItem(item, index)
+        return renderInformationItem(item, index, sendText, debouncedSend, dispatch);  // Pass the new arguments here
       })}
     </>
-  )
-}
+  );
+};
 
-export default InformationContent
+export default InformationContent;
