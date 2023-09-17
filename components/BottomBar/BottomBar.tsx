@@ -7,6 +7,7 @@ import {
   useUneeqSpaceToTalk,
   useUneeqState
 } from '../../'
+import Image from 'next/image';
 import { ReactComponent as ChatIcon } from '../../assets/img/keyboard-icon.svg'
 import { ReactComponent as TalkIcon } from '../../assets/img/mic-icon.svg'
 import { ReactComponent as SkipIcon } from '../../assets/img/skip.svg'
@@ -101,7 +102,7 @@ const BottomBar: React.FC = () => {
 
   return (
     <Flex sx={styles.bar}>
-      <Image sx={styles.lowerBg} src={lowerBgImage} alt="" />
+      <Image src={lowerBgImage} alt="" />
       <Flex sx={styles.left} />
       <Flex sx={styles.userQuestionMotionContainer}>
         <AnimatePresence>
