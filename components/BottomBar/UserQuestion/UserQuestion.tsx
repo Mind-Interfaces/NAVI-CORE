@@ -5,6 +5,7 @@ import styles from './styles'
 interface UserQuestionProps {
   children: React.ReactNode
 }
+
 const UserQuestion: React.FC<UserQuestionProps> = React.forwardRef(
   ({ children }, ref): any => {
     if (!children) return null
@@ -16,6 +17,8 @@ const UserQuestion: React.FC<UserQuestionProps> = React.forwardRef(
       </Flex>
     )
   }
-)
+);
 
-export default UserQuestion
+UserQuestion.displayName = 'UserQuestion';
+
+export default UserQuestion;
