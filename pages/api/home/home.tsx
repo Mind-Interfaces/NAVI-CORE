@@ -258,7 +258,6 @@ const Home = ({
         value: settings.theme,
       });
     }
-  }, [dispatch, getSettings]);
 
     const apiKey = localStorage.getItem('apiKey');
 
