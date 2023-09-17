@@ -142,7 +142,7 @@ const Feedback: React.FC<FeedbackProps> = ({ restart, isOpen }) => {
             values={{ avatarName: config.avatarName }}
             t={t}
           >
-            What's your impression of our digital representative?
+            What&apos;s your impression of our digital representative?
           </Trans>
         </Text>
         <Textarea
