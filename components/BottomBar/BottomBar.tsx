@@ -101,7 +101,7 @@ const BottomBar: React.FC = () => {
 
   return (
     <Flex sx={styles.bar}>
-      <Image sx={styles.lowerBg} src={lowerBgImage} />
+      <Image sx={styles.lowerBg} src={lowerBgImage} alt="" />
       <Flex sx={styles.left} />
       <Flex sx={styles.userQuestionMotionContainer}>
         <AnimatePresence>
