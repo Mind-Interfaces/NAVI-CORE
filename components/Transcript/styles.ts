@@ -1,4 +1,4 @@
-export default {
+const styles = {
   container: {
     label: 'transcript-container',
     zIndex: 5,
@@ -142,3 +142,5 @@ export default {
     mr: [3, 0]
   }
 }
+
+export default styles;
