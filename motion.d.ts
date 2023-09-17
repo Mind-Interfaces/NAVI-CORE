@@ -4,3 +4,10 @@ declare module 'framer-motion' {
   }
   export const motion: typeof motion & CustomMotionMethods;
 }
+
+declare module 'framer-motion' {
+  export interface AnimatePresenceProps {
+    // ... Your custom properties here
+  }
+  export const AnimatePresence: React.FC<AnimatePresenceProps>;
+}
