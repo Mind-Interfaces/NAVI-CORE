@@ -257,7 +257,8 @@ const Home = ({
         field: 'lightMode',
         value: settings.theme,
       });
-    }, [dispatch, getSettings]);
+    }
+  }, [dispatch, getSettings]);
 
     const apiKey = localStorage.getItem('apiKey');
 
