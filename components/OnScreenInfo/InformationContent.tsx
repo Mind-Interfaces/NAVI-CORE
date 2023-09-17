@@ -136,14 +136,14 @@ const renderInformationItem = (item: InformationItem, index: number, sendText, d
         </Text>
       )
     case 'markdown':
-      const { sendText, dispatch } = useContext(UneeqContext)
-      const debouncedSend = useRef(
-        debounce((text: string) => sendText(text), 2000)
-      ).current
-      const compiled = compile(item.markdown, debouncedSend, (text: string) => {
-        dispatch({ type: 'suggestedResponseSent', payload: text })
-      })
-      return compiled.tree
+      const compiled = compile(
+        item.markdown, 
+        debouncedSend, 
+        (text: string) => {
+          dispatch({ type: 'suggestedResponseSent', payload: text })
+        }
+      );
+      return compiled.tree;
     case 'list':
       return (
         <ul key={index}>
@@ -183,18 +183,18 @@ interface InformationProps {
 }
 
 const InformationContent: React.FC<InformationProps> = ({ information }) => {
-  if (!information?.length) return null;
-
-  // Add these lines
+  // Move these lines to the top of your function component
   const { sendText, dispatch } = useContext(UneeqContext);
   const debouncedSend = useRef(
     debounce((text: string) => sendText(text), 2000)
   ).current;
 
+  if (!information?.length) return null;
+
   return (
     <>
       {information.map((item: InformationItem, index: number) => {
-        return renderInformationItem(item, index, sendText, debouncedSend, dispatch);  // Pass the new arguments here
+        return renderInformationItem(item, index, sendText, debouncedSend, dispatch);
       })}
     </>
   );
