@@ -1,9 +1,6 @@
-import { motion } from 'framer-motion';
-
 declare module 'framer-motion' {
-  interface CustomMotion {
+  interface CustomMotionMethods {
     custom: any;
   }
-
-  export const motion: CustomMotion;
+  export const motion: typeof motion & CustomMotionMethods;
 }
