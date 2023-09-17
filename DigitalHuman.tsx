@@ -77,7 +77,7 @@ interface DigitalHumanProps {
   assets: any
   onTimedOut: () => void
   onSessionEnded: () => void
-  config: Partial<UneeqCoreConfig>
+  config: any
   postInit?: (uneeq: Uneeq) => void
   token?: string
   restart: () => void
