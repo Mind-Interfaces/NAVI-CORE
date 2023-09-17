@@ -6,7 +6,7 @@ import {
   trackHandler,
   UneeqContext,
   useUneeqState
-} from 'uneeq-react-core'
+} from '../../'
 import { Label, Input } from '@rebass/forms'
 import { ReactComponent as SendIcon } from '../../assets/img/send.svg'
 import { useTranslation } from 'react-i18next'
