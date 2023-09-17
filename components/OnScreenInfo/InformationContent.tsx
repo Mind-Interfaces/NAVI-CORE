@@ -122,7 +122,7 @@ type InformationItem =
   | LinkInformation
   | MarkdownInformation
 
-const renderInformationItem = (item: InformationItem, index: number): any => {
+const renderInformationItem = (item: InformationItem, index: number, sendText, debouncedSend, dispatch): any => {
   switch (item.type) {
     case 'html':
       console.warn('HTML type used')
