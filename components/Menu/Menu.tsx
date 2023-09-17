@@ -34,7 +34,8 @@ const Menu: React.FC = () => {
         as={MenuIcon}
         sx={styles.menuIcon}
         data-testid="menu-icon"
-        onClick={openMenu}
+        onClick={openMenu} 
+        alt=""
       />
       {menuOpen && (
         <Flex sx={styles.menuAreaContainer}>
