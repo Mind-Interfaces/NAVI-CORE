@@ -6,7 +6,7 @@ import {
   useIsSmallScreen,
   useUneeqSpaceToTalk,
   useUneeqState
-} from 'uneeq-react-core'
+} from './'
 import { ReactComponent as ChatIcon } from '../../assets/img/keyboard-icon.svg'
 import { ReactComponent as TalkIcon } from '../../assets/img/mic-icon.svg'
 import { ReactComponent as SkipIcon } from '../../assets/img/skip.svg'
