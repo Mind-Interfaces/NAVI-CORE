@@ -25,7 +25,6 @@ import PermissionsGateway, {
 
 import EndSessionConfirm from './components/endSession/EndSessionConfirm'
 import styles from './styles'
-import { UneeqCoreConfig } from 'uneeq-react-core'
 
 const DigitalHumanContent = ({
   restart,
