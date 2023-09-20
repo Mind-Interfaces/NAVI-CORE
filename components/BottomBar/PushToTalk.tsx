@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './styles'
 import { Text, Button } from 'rebass'
 import { ReactComponent as MicIcon } from '../../assets/img/mic-icon.svg'
-import { useVolume } from './'
+import { useVolume } from '../../'
 import { useTheme } from 'emotion-theming'
 
 import { keyframes } from '@emotion/core'
