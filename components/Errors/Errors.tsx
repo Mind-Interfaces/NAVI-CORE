@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { UneeqContext, useUneeqError } from 'uneeq-react-core'
+import { UneeqContext, useUneeqError } from '../../'
 import Error from './Error'
 import FatalError from './FatalError'
 import Warning from './Warning'
