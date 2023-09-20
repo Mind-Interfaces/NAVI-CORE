@@ -1,6 +1,6 @@
 {
-  "name": "ai-chatbot-starter",
-  "version": "0.1.0",
+  "name": "NAVI-CORE",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -29,7 +29,7 @@
     "react-query": "^3.39.3",
     "react-syntax-highlighter": "^15.5.0",
     "rebass": "^4.0.3",
-    "rebass__forms": "*",
+    "rebass/forms": "*",
     "rehype-mathjax": "^4.0.2",
     "remark-gfm": "^3.0.1",
     "remark-math": "^5.1.1",
