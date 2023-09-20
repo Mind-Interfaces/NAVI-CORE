@@ -1,9 +1,10 @@
 import React, { createElement, useContext, useRef } from 'react'
 // Import the required hooks
-import debounce from 'lodash.debounce';  // Import debounce if it's not already imported
 
 import { Image, Link, Text, Heading } from 'rebass'
 import { UneeqContext, useUneeqState } from '../../'
+
+import debounce from 'lodash.debounce';  // Import debounce if it's not already imported
 
 import marksy from 'marksy'
 
