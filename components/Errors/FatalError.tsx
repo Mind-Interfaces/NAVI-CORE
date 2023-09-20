@@ -1,7 +1,7 @@
 import React from 'react'
 import { Button, Text, Flex, Heading, Box } from 'rebass'
 import styles from './styles'
-import { trackHandler } from 'uneeq-react-core'
+import { trackHandler } from '../../'
 import Overlay from '../generic/Overlay'
 import { ReactComponent as ExclamationIcon } from '../../assets/img/exclamation.svg'
 
