@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import { UneeqContext, useUneeqState } from 'uneeq-react-core'
+import { UneeqContext, useUneeqState } from '../../'
 import { Box, Button, Flex, Image, Text } from 'rebass'
 import InformationContent from './InformationContent'
 import { ReactComponent as ExpandIcon } from '../../assets/img/expand.svg'
