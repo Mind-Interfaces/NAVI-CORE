@@ -1,6 +1,6 @@
 import React, { useContext, useRef } from 'react'
 import { Flex, Image } from 'rebass'
-import { trackHandler, UneeqContext, useUneeqState } from 'uneeq-react-core'
+import { trackHandler, UneeqContext, useUneeqState } from '../../'
 import { ReactComponent as MenuIcon } from '../../assets/img/menu.svg'
 import useOnClickOutside from '../../hooks/useOnClickOutside'
 import styles from './styles'
