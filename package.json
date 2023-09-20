@@ -21,6 +21,7 @@
     "framer-motion": "*",
     "hash-sum": "*",
     "i18next": "^22.4.13",
+    "marksy": "*",
     "next": "13.2.4",
     "next-i18next": "^13.2.2",
     "openai": "^3.2.1",
