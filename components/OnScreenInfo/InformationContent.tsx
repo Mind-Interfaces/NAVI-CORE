@@ -1,9 +1,10 @@
-import React, { createElement } from 'react'
-// import ReactHtmlParser from 'react-html-parser'
+import React, { createElement, useContext, useRef } from 'react'
+// Import the required hooks
+import debounce from 'lodash.debounce';  // Import debounce if it's not already imported
+
 import { Image, Link, Text, Heading } from 'rebass'
 import { UneeqContext, useUneeqState } from '../../'
-// import debounce from 'lodash.debounce'
-// @ts-ignore
+
 import marksy from 'marksy'
 
 const headingStyles = {
@@ -174,9 +175,6 @@ const renderInformationItem = (item: InformationItem, index: number, sendText, d
       )
   }
 }
-
-import { useContext, useRef } from 'react';  // Import the required hooks
-import debounce from 'lodash.debounce';  // Import debounce if it's not already imported
 
 interface InformationProps {
   information: InformationItem[];
