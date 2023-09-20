@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Box, Button, Flex } from 'rebass'
-import { UneeqContext, useUneeqState } from 'uneeq-react-core'
+import { UneeqContext, useUneeqState } from '../../'
 
 import { styles as s } from './styles'
 import { ReactComponent as HeartFullIcon } from '../../assets/img/heart-full.svg'
