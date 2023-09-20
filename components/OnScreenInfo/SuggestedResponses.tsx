@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Button, Flex } from 'rebass'
-import { trackHandler, UneeqContext, useUneeqState } from 'uneeq-react-core'
+import { trackHandler, UneeqContext, useUneeqState } from '../../'
 import { motion, AnimatePresence } from 'framer-motion'
 import { styles as s } from './styles'
 
