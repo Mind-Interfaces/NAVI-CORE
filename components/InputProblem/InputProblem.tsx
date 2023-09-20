@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from 'react'
 import { Flex, Text } from 'rebass'
 import styles from './styles'
-import { UneeqContext, useIsSmallScreen } from 'uneeq-react-core'
+import { UneeqContext, useIsSmallScreen } from './'
 import { useTranslation } from 'react-i18next'
 
 interface InputProblemProps {
