@@ -45,7 +45,7 @@ const Chat = () => {
       <Input
         id="chat"
         value={text}
-        placeholder={t('BottomBar.Chat.placeholder')}
+        placeholder={t('BottomBar.Chat.placeholder') as string}
         autoFocus={!typeModeFromBackend}
         onChange={e => setText(e.target.value)}
         onFocus={hideUIElements}
