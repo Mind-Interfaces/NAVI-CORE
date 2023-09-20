@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react'
 import { Flex, Text } from 'rebass'
 import { ReactComponent as WarningIcon } from '../../assets/img/warning-icon.svg'
 import { styles as s } from './styles'
-import { UneeqContext } from 'uneeq-react-core'
+import { UneeqContext } from '../../'
 const styles = s.warning
 
 interface WarningProps {
