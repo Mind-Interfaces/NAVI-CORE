@@ -4,8 +4,7 @@ import React, { createElement, useContext, useRef } from 'react'
 import { Image, Link, Text, Heading } from 'rebass'
 import { UneeqContext, useUneeqState } from '../../'
 
-import debounce from 'lodash.debounce';  // Import debounce if it's not already imported
-
+import { debounce } from 'lodash';
 import marksy from 'marksy'
 
 const headingStyles = {
