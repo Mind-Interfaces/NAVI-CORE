@@ -1,4 +1,4 @@
-// import React, { createElement, useContext } from 'react'
+import React, { createElement } from 'react'
 // import ReactHtmlParser from 'react-html-parser'
 import { Image, Link, Text, Heading } from 'rebass'
 import { UneeqContext, useUneeqState } from '../../'
