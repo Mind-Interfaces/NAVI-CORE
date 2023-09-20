@@ -1,7 +1,7 @@
 import React, { createElement, useRef, useContext } from 'react'
 // import ReactHtmlParser from 'react-html-parser'
 import { Image, Link, Text, Heading } from 'rebass'
-import { UneeqContext, useUneeqState } from 'uneeq-react-core'
+import { UneeqContext, useUneeqState } from '../../'
 import { debounce } from 'lodash'
 // @ts-ignore
 import marksy from 'marksy'
