@@ -2,7 +2,7 @@
 // import ReactHtmlParser from 'react-html-parser'
 import { Image, Link, Text, Heading } from 'rebass'
 import { UneeqContext, useUneeqState } from '../../'
-import { debounce } from 'lodash'
+import debounce from 'lodash.debounce'
 // @ts-ignore
 import marksy from 'marksy'
 
